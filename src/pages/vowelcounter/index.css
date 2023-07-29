@@ -1,0 +1,28 @@
+.main-vowel-counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-vowel-counter input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+  
+.main-vowel-counter input:hover {
+    height: 3.2rem;
+    box-shadow: 0px 2px 5px black;
+}
+
+.main-vowel-counter h2 {
+    font-size: 28px;
+    font-weight: bold;
+}

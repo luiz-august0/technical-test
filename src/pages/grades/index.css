@@ -1,0 +1,45 @@
+.main-grades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-grades input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+  
+.main-grades input:hover {
+    height: 3.2rem;
+    box-shadow: 0px 2px 5px black;
+}
+
+.main-grades button  {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #71c55b;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+  
+.main-grades button:hover {
+    height: 3.2rem;
+    box-shadow: 0px 2px 5px black;
+}
+
+.main-grades h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
